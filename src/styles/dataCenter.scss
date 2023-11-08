@@ -1,0 +1,97 @@
+ //  一些公用样式
+ html {
+     height: 100%;
+ }
+
+ body {
+     height: 100%;
+     padding: 0px;
+     background-color: #f0f2f5;
+
+     #app {
+         height: 100%;
+         overflow: auto;
+         background-color: #ffffff;
+         padding: 10px;
+
+         .app {
+             height: 100%;
+             overflow-y: auto;
+             overflow-x: hidden;
+         }
+     }
+ }
+
+ .table_operation {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .form_operation {
+     display: flex;
+     justify-content: start;
+     align-items: center;
+
+     .ivu-btn {
+         margin-right: 10px;
+     }
+ }
+
+ .table_page {
+     margin: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .add_button {
+     margin-bottom: 16px;
+     text-align: left;
+ }
+
+ .FormItem_tips {
+     line-height: 20px;
+     height: 20px;
+     font-size: 12px;
+     margin-top: 10px;
+ }
+
+ .CodeMirror-hints {
+     z-index: 1000000 !important;
+ }
+
+ .ivu-menu {
+     z-index: 9 !important;
+ }
+
+ .ivu-select-dropdown {
+     max-height: 600px !important;
+ }
+
+ .dataQuery_tree .ivu-tree-title {
+     width: 100%;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+ }
+
+ .mt-10 {
+     margin-top: 10px;
+ }
+
+ .mt-20 {
+     margin-top: 20px;
+ }
+
+ .mb-10 {
+     margin-bottom: 10px;
+ }
+
+ .mb-20 {
+     margin-bottom: 20px;
+ }
+
+ .pd-05 {
+     padding: 5px;
+ }

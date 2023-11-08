@@ -1,0 +1,139 @@
+.ivu-table {
+    background-color: transparent;
+    color: #6A7284;
+
+    th {
+        height: 40px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #6A7284;
+        background-color: #E4EAF3;
+    }
+
+    td {
+        height: auto;
+        padding: 8px 0px;
+        background-color: #ffffff;
+        border-bottom: 0px;
+    }
+
+    &::before {
+        background-color: transparent;
+    }
+}
+
+// .ivu-table:before
+// .ivu-table-stripe .ivu-table-body tr:nth-child(2n) td,
+// .ivu-table-stripe .ivu-table-fixed-body tr:nth-child(2n) td {
+//     background-color: #f8f8f8;
+// }
+::v-deep.ivu-spin-fix {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.ivu-btn-text {
+    color: #3895FA;
+
+    &:hover {
+        color: #5cadff;
+        background-color: transparent;
+    }
+
+    &:active,
+    &:focus {
+        background-color: transparent;
+        outline: none;
+        box-shadow: none !important;
+    }
+}
+
+.ivu-btn-primary {
+    color: #fff;
+    background-color: #3895FA;
+    border-color: #3895FA;
+
+    &:hover {
+        background-color: #65ACFA;
+        border-color: #65ACFA;
+    }
+
+    &:active,
+    :focus {
+        background-color: #2C7FD9;
+        border-color: #2C7FD9;
+    }
+}
+
+.ivu-btn-info {
+    color: #fff;
+    background-color: #ABB3CA;
+    border-color: #ABB3CA;
+
+    &:hover {
+        background-color: #BDC4D5;
+        border-color: #BDC4D5;
+    }
+
+    &:active,
+    :focus {
+        background-color: #9AA2B9;
+        border-color: #9AA2B9;
+    }
+}
+
+.ivu-btn-error {
+    color: #fff !important;
+    background-color: #EB7D7D;
+    border-color: #EB7D7D;
+
+    &:hover {
+        background-color: #EF9A9A !important;
+        border-color: #EF9A9A !important;
+    }
+
+    &:active,
+    :focus {
+        background-color: #D26565 !important;
+        border-color: #D26565 !important;
+    }
+}
+
+.ivu-btn+.ivu-btn {
+    margin-left: 10px;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    background: #bfc1c4 !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #bfc1c4 !important;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0px 1000px transparent inset !important;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    background-color: transparent;
+    background-image: none;
+    transition: background-color 50000s ease-in-out 0s; //背景色透明  生效时长  过渡效果  启用时延迟的时间
+}
